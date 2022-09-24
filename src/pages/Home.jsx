@@ -2,13 +2,13 @@ import Main from '../components/Main';
 import Row from '../components/Row';
 
 const Home = () => {
+	const movieTitles = ['Popular', 'UpComing', 'Top Rated', 'Now Playing'];
 	return (
 		<>
 			<Main />
-			<Row title='Popular' />
-			<Row title='UpComing' />
-			<Row title='Top Rated' />
-			<Row title='Now Playing' />
+			{movieTitles.map((title, index) => (
+				<Row key={index} title={title} index={index} />
+			))}
 		</>
 	);
 };
