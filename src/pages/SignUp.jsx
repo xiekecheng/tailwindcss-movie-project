@@ -19,14 +19,12 @@ const SignUp = () => {
 						<input
 							className='bg-gray-600 rounded my-2 p-3 text-gray-600'
 							type='email'
-							placeHolder='Email'
-							id=''
+							placeholder='Email'
 						/>
 						<input
 							className='bg-gray-600 rounded my-2 p-3 text-gray-600'
 							type='password'
-							placeHolder='Password'
-							id=''
+							placeholder='Password'
 						/>
 						<button className='bg-red-600 rounded p-3 my-6 font-bold'>
 							Sign Up
